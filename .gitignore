@@ -1,0 +1,19 @@
+# ============================================================
+#  .gitignore  ·  Qué NO debe subirse al repositorio de GitHub
+# ============================================================
+
+# Carpeta local que crea la CLI de Vercel al enlazar el proyecto.
+# Guarda IDs internos de tu cuenta; no debe versionarse.
+.vercel/
+
+# Dependencias de Node (este sitio es estático y no las usa,
+# pero se ignoran por si en el futuro agregas herramientas).
+node_modules/
+
+# Archivos basura del sistema operativo.
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# Configuración local de editores.
+.vscode/
+.idea/
